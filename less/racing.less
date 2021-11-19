@@ -8,6 +8,12 @@
     transition: ease all 0.5s;
 }
 
+
+.full_height_width {
+    width: 100%;
+    float: left;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -21,21 +27,18 @@ body {
 
 .about_main {
     .collection_section {
-        width: 100%;
-        float: left;
+        .full_height_width();
         margin-top: 40px;
 
         .container {
             .new_text {
-                width: 100%;
-                float: left;
+                .full_height_width();
                 @{fz}: 2em;
                 color: @mycolor2;
             }
 
             .consectetur_text {
-                width: 100%;
-                float: left;
+                .full_height_width();
                 @{fz}: 1.2em;
                 color: @mycolor2;
                 font-weight: 400;
@@ -46,14 +49,12 @@ body {
     }
 
     .collection_section_3 {
-        width: 100%;
-        float: left;
+        .full_height_width();
         padding-top: 0px;
 
         .container {
             .racing_shoes {
-                width: 100%;
-                float: left;
+                .full_height_width();
                 background-color: @mycolor3;
                 height: auto;
                 padding-top: 70px;
@@ -62,8 +63,7 @@ body {
                 margin-bottom: 100px;
 
                 .shoes-img3 {
-                    width: 100%;
-                    float: left;
+                    .full_height_width();
                     text-align: center;
 
                     img {
@@ -73,8 +73,7 @@ body {
                 }
 
                 .sale_text {
-                    width: 100%;
-                    float: left;
+                    .full_height_width();
                     @{fz}: 3em;
                     color: @redthemecolor;
                     line-height: 75px;
